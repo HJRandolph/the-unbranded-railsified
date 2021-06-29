@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>The Unbranded</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'script', 'data-turbolinks-track': 'reload' %>
+       
+    <!--FONTS-->
+  <link rel=“stylesheet” href=“https://use.typekit.net/upl4pmd.css”> <!--Bree Sans-serif, Omnes all-->
+  <link rel="stylesheet" href="https://use.typekit.net/lzh5gbk.css"> <!--p22 Underground Sans-serif-->
+  <script src="https://kit.fontawesome.com/fb44934dbd.js" crossorigin="anonymous"></script> <!--Icons-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap" rel="stylesheet"> <!--Arsenal-->
+
+  <meta name="theme-color" content="#fafafa">
+ 
+  </head>
+
+  <body>
+  <header>
+
+    <div class="mobile-nav mobile-nav-wrapper desk-nav desk-nav-wrapper">
+      <p><a href="/#" class="home hidden"><i class="fas fa-home"></i></a></p>
+      
+      <div class="menu-toggle">
+        <div class="hamburger"></div>
+      </div>
+    </div>
+    
+    <div class="header-logo">
+      <%= image_tag ("Asset_1.svg"), class: "header-logo-img", alt: "The Unbranded Logo" %>
+      <%= image_tag ("the-unbranded-logo.png"), class: "header-logo-img-2", alt: "The Unbranded Logo" %>
+    </div>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="/#mission">MISSION</a></li>     
+        <li><a href="/#work">OUR WORK</a></li>
+        <li><a href="/#social-justice">SOCIAL JUSTICE</a></li>
+        <li><a href="/#team">TEAM</a></li>
+        <li><a href="/#contact">CONTACT</a></li>
+        <li><a href="/articles">blog</a></li>
+      </ul>
+    </nav>
+
+   
+  </header>
+
+  <main>
+    <%= yield %>
+
+   <footer>
+      <div id="mail" class="footer-hidden hidden">
+       <p> <a class="footer-email" href="mailto:contact@the-unbranded.com"><i class="fas fa-envelope"></i></a></p>
+      </div>
+      <p><a href="#" class="home hidden"><i class="fas fa-home"></i></a></p>
+    </footer>
+   
+    </main>
+  </body>
+</html>
