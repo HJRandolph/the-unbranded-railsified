@@ -311,9 +311,7 @@ footer {
 .show {
   display: block;
 }
-.show {
-  display: block;
-}
+
 /******** MISSION ********/
 .container {
   width: 65%;
@@ -667,7 +665,7 @@ Desktop Styles
     z-index: 1000;
     top: 0;
     width: 100%;
-    /*  background-color: rgba(241,86,49,.1); */
+      background-color: rgba(241,86,49,.1); 
   }
   ul {
     display: flex;
