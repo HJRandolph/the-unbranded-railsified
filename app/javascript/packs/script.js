@@ -1,6 +1,6 @@
 
   /* HAMBURGER MENU CODE */
-  $(document).ready(function(){
+  $(document).on('turbolinks:load', function(){
 
     //Open hamburger menu on click
    $('.menu-toggle').click(function() {
