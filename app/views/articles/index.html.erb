@@ -5,7 +5,7 @@
 <ul>
 <% @articles.each do |article| %>
     <li>
-       <h3> <%= link_to "#{article.title}", "articles/#{article.slug}" %></h3>
+       <h3> <%= link_to "#{article.title}", "#{article.slug}" %></h3>
       
     </li>
 <% end %>
