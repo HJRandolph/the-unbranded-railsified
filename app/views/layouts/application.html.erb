@@ -55,36 +55,7 @@
   </head>
 
   <body>
-  <header>
-
-    <div class="mobile-nav mobile-nav-wrapper desk-nav desk-nav-wrapper">
-      <p><a href="/#" class="home hidden"><i class="fas fa-home"></i></a></p>
-      
-      <div id="menu-toggle" class="menu-toggle">
-        <div class="hamburger"></div>
-      </div>
-    </div>
-    
-    <div class="header-logo">
-      <%= image_tag ("Asset_1.svg"), class: "header-logo-img", alt: "The Unbranded Logo" %>
-      <%= image_tag ("the-unbranded-logo.png"), class: "header-logo-img-2", alt: "The Unbranded Logo" %>
-    </div>
-
-    <nav class="nav">
-      <ul>
-        <li><%= link_to 'mission', '/#mission' ,{ :'data-no-turbolink' =>  "true" } %></li>     
-        <li><a href="/#work">OUR WORK</a></li>
-        <li><a href="/#social-justice">SOCIAL JUSTICE</a></li>
-        <li><a href="/#team">TEAM</a></li>
-        <li><a href="/#contact">CONTACT</a></li>
-        <li><a href="/articles">blog</a></li>
-      </ul>
-    </nav>
-
-   
-  </header>
-
-  <main>
+ 
     <%= yield %>
 
    <footer>
