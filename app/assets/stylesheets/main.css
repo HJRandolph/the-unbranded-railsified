@@ -180,7 +180,10 @@ nav {
   clip-path: circle(0px at top right);
   transition: clip-path ease-in-out 600ms;
 }
-    
+  .nav-close {
+    pointer-events: none;
+  }
+  
 /*Navigation open on click*/
 .nav-open {
   clip-path: circle(250% at top right);
