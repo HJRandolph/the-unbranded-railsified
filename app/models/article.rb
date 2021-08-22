@@ -15,6 +15,6 @@ private
     end
 
     def create_slug
-        self.title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/,'')
+        self.title.downcase!.strip.gsub(' ', '-').gsub(/[^\w-]/,'')
     end
 end
