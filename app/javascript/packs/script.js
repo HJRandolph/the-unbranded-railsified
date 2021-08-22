@@ -5,7 +5,6 @@
     //Open hamburger menu on click
    $('.menu-toggle').click(function() {
        $('.nav').toggleClass('nav-open');
-       $('.nav').removeClass('nav-close');
        $(this).toggleClass('open');
        $('.nav').show();
    
@@ -17,7 +16,6 @@
 
         
         $('.nav').toggleClass('nav-open');
-        $('.nav').addClass('nav-close');
         $('.menu-toggle').toggleClass('open');
         
    });
