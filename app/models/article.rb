@@ -4,7 +4,7 @@ class Article < ApplicationRecord
     before_update :assign_slug
     
 def update_slug
-    update_attribute slug: assign_slug
+    update_attributes slug: assign_slug
 end
 
 
