@@ -173,6 +173,9 @@ nav {
 }
 
 @media (max-width: 1199px){
+  html {
+    height: auto;
+  }
 .mobile-nav {
   display: flex;
   justify-content: space-between;
