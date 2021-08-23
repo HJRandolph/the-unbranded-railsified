@@ -91,9 +91,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
-html {
-  height: 100%;
-}
 
 body {
     margin: 0;
@@ -101,7 +98,7 @@ body {
    
     /* Dark to light gradient */
     background: linear-gradient(to bottom,#f25934 0%,  #f27d52 35%, #f2a488 65%, #f9f2ed 100%),
-    url(beige-paper.png);
+    url('/assets/beige-paper.png');
   
     
     /* background: linear-gradient(#f9f2ed 0%,  #f2a488 35%, #f27d52 90%, #f25934 100%);*/
@@ -113,7 +110,7 @@ header {
 }
 
 .inner-page {
-  height: 50vh;
+  height: 75vh;
 }
 img {
   max-width: 90%;
@@ -173,9 +170,7 @@ nav {
 }
 
 @media (max-width: 1199px){
-  html {
-    height: auto;
-  }
+
 .mobile-nav {
   display: flex;
   justify-content: space-between;
