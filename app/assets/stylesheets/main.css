@@ -98,7 +98,7 @@ body {
    
     /* Dark to light gradient */
     background: linear-gradient(to bottom,#f25934 0%,  #f27d52 35%, #f2a488 65%, #f9f2ed 100%),
-    image-url('beige-paper.png');
+    url('beige-paper.png');
   
     
     /* background: linear-gradient(#f9f2ed 0%,  #f2a488 35%, #f27d52 90%, #f25934 100%);*/
