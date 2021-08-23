@@ -91,8 +91,8 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
-header {
-    height: 100vh;
+html {
+  height: 100%;
 }
 
 body {
@@ -106,6 +106,14 @@ body {
     
     /* background: linear-gradient(#f9f2ed 0%,  #f2a488 35%, #f27d52 90%, #f25934 100%);*/
     background-blend-mode: overlay;
+}
+
+header {
+  height: 100vh;
+}
+
+.inner-page {
+  height: 50vh;
 }
 img {
   max-width: 90%;
