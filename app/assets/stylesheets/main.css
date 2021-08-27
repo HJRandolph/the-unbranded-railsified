@@ -347,10 +347,6 @@ footer {
 #work h3 {
   margin: 4em auto 1.5em auto;
 }
-
-.heading-first {
-  padding-top: 5em;
-}
   
 .project {
   width: 100%;
@@ -561,7 +557,9 @@ label span {
   .mission-text {
     width: 65%;
   }
-
+  .heading-first {
+    padding-top: 5em;
+  }
   /***** ABOUT *****/
   .about h2 {
     width: 100%;
