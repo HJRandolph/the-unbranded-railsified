@@ -151,7 +151,7 @@ h4 {
 }
 
 p {
-  font-family: "omnes-pro", sans-serif;
+  font-family: 'omnes-pro', sans-serif;
   font-size: 1em;
   font-style: normal;
   font-weight: 400;
@@ -189,7 +189,7 @@ nav {
   text-align: center;
   z-index: -1;
   top: 5%;
-  right: 5%;
+  right: 1em;
   /*Navigation hidden on mobile*/
   clip-path: circle(0px at top right);
   transition: clip-path ease-in-out 600ms;
@@ -200,16 +200,20 @@ nav {
 .nav-open {
   clip-path: circle(250% at top right);
   z-index: 1000;
+  filter: drop-shadow(0 0 30px #fff);
 } 
 .nav-ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   width: 350px;
   height: 450px;
   border-radius: 50%;
+  background: radial-gradient(#f2e9e3, #fff);
+  /*
   background: #f2e9e3;
-  filter: drop-shadow(0 0 30px #fff);
+  */
   list-style: none;
 }    
 .nav-ul > li a {
@@ -590,8 +594,8 @@ label span {
 
   /***** SOCIAL JUSTICE *****/
   #social-justice {
-    width: 88%;
-    margin: auto 5% auto 5%;
+    width: 65%;
+    margin: auto 16% auto 16%;
   }
   .social-justice-body {
     width: 65%;
@@ -650,8 +654,8 @@ label span {
 
   /***** CONTACT *****/
   #contact {
-    width: 88%;
-    margin: auto 5% auto 5%;
+    width: 65%;
+    margin: auto 16% auto 16%;
   }
   #contact p {
     text-align: center;
