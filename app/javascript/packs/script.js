@@ -43,6 +43,7 @@ $(window).scroll(function(){
    var scroll = $(window).scrollTop();
        if (scroll >= 500) {
            $(".hidden").removeClass("hidden");
+           $(".home").removeClass("hidden");
        }
    if (scroll <= 500) {
        $(".footer-email").addClass("hidden");
