@@ -1,0 +1,56 @@
+ .sj-info {
+        width: 100%;
+       /* border: 1px solid #f1e7e0;
+        background-color: #fcf6f5; */
+        margin: 3px 0px;
+        float: left;
+.info {
+    display: none;
+}
+        &.expanded {
+            .head .name {
+                color: #f60;
+            }
+
+            .head .name span {
+                border-color: #f60;
+                color: #f60;
+
+                &.plus {
+                    display: none;
+                }
+
+                &.minus {
+                    display: block;
+                }
+            }
+        }
+
+        .head {
+            .name {
+                
+                text-transform: uppercase;
+                
+                cursor: pointer;
+                position: relative;
+
+                span {
+                    position: absolute;
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    border: 1px solid #706f6f;
+                    text-align: center;
+                    right: 15px;
+                    top: 7px;
+                    font-size: 18px;
+                    line-height: 17px;
+
+                    &.minus {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }

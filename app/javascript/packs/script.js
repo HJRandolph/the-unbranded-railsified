@@ -53,4 +53,24 @@ $(window).scroll(function(){
 
    });
    
-   
+/* COLLAPSIBLE STUFF */
+/* Modified code provided by Timothy Groote on StackOverflow */
+$(document).on('turbolinks:load', function(){
+        /* expand */
+        $('.sj-info .head').click(function () {
+            
+            if($(this).parent('div').hasClass('expanded'))
+            {
+               $(this).parent('div').toggleClass('expanded');
+               $(this).next('div').slideUp();
+            }
+            else
+            {
+               $('.sj-info.expanded .head').next('div').slideUp();
+               $('.sj-info.expanded').removeClass('expanded');
+               $(this).parent('div').toggleClass('expanded');
+               $(this).next('div').slideDown();
+            }
+            
+        });
+    });
