@@ -1,20 +1,20 @@
  .sj-info {
         width: 100%;
-       /* border: 1px solid #f1e7e0;
-        background-color: #fcf6f5; */
+        /*border: 1px solid #f1e7e0;
+        background-color: #f28a2e;*/ 
         margin: 3px 0px;
-        float: left;
+        
 .info {
     display: none;
 }
         &.expanded {
             .head .name {
-                color: #f60;
+                color: #f28a2e;
             }
 
             .head .name span {
-                border-color: #f60;
-                color: #f60;
+                border-color: #000;
+                color: #000;
 
                 &.plus {
                     display: none;
@@ -40,12 +40,14 @@
                     width: 20px;
                     height: 20px;
                     border-radius: 50%;
-                    border: 1px solid #706f6f;
+                    border: 1px solid #000;
                     text-align: center;
                     right: 15px;
                     top: 7px;
                     font-size: 18px;
                     line-height: 17px;
+                    color: #000;
+                    background-color: #f28a2e;
 
                     &.minus {
                         display: none;
