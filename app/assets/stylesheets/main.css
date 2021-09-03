@@ -372,11 +372,11 @@ footer {
   padding-bottom: 3em;
 }
 .project-image {
-  /*
+
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  */
+  
   min-width: 35%;
   padding-bottom: 1em;
 }
@@ -390,7 +390,6 @@ footer {
 .project-image img {
   height: 200px;
   width: 100%;
-	/*border-radius: 190px / 200px; Makes image rounded*/
   object-fit: cover;
   /* HJR: Added the border to be able to see the box-shadow clearly JEC: f27d52 changed color to make it more subtle */
   border: #bbb1ac solid 1px;
