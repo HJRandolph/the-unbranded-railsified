@@ -97,9 +97,9 @@ body {
     padding: 0;
    
     /* Dark to light gradient */
-    background: linear-gradient(to bottom,#f28a2e 0%,  #f5f5f5 100%);/*,
+    background: linear-gradient(to bottom,#f28a2e 0%,  #f5f5f5 100%),
     url('beige-paper.png');
-  
+  /*
   
     
      background: linear-gradient(#f9f2ed 0%,  #f2a488 35%, #f27d52 90%, #f25934 100%);*/
@@ -596,8 +596,13 @@ label span {
     align-items: flex-start;
     flex-flow: row wrap;
   }
+  .project-image {
+    justify-content: center;
+    width: 100%;
+  }
+  
   .project-image img {
-    width: 65%;
+    width: 30em;
   }
   .project-text p {
     width: 65%;
@@ -730,11 +735,7 @@ Desktop Styles
     color: white;
     text-shadow: 1px 1px 3px #000; 
   }
-  /*
-  .home {
-    display: none;
-  }
-*/
+  
   /***** PROJECT *****/
   #work {
     width: 66%;
@@ -747,10 +748,11 @@ Desktop Styles
     flex-flow: row;
   }
   .project-image {
+    justify-content: flex-start;
     width: 60%;
   }
   .project-image img {
-    width: 65%;
+    
     height: 13.75em;
   }
   .project-body {
