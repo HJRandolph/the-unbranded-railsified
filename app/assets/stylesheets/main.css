@@ -712,8 +712,11 @@ Desktop Styles
     z-index: 1000;
     top: 0;
     width: 100%;
-      /*background-color: rgba(241,86,49,.75); */
-    background: #f28a2e;
+      /*background-color: rgba(241,86,49,.75); 
+    background: #f28a2e;*/
+    background: linear-gradient(to bottom,#f28a2e 0%,  #f28a2e 100%),
+    url('beige-paper.png');
+    background-blend-mode: overlay;
   }
   ul {
     display: flex;
