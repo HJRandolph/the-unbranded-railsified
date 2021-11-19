@@ -1,50 +1,13 @@
-
-    <section class="container" id="mission">
-      <div class="mission">
-        <h2 class="mission-heading-first heading-first">MISSION</h2>
-        <p class="mission-text"><strong>The Unbranded seeks to humanize the process of professional branding 
-          while also establishing a reproducible, transparent, and ethically sound business structure.</strong> 
-          We pride ourselves in tailoring our work to reflect our clients' unique perspectives, while striving 
-          to consistently challenge ourselves and our clients to integrate an ethos of positive change into 
-          every action taken, no matter how big or small.
-        </p>
-      </div>
-      </section>
-    <section class="container" id="mission">
-      <div class="about">
-        <h2>ABOUT</h2>
-        <p class="mission-text">
-          We are a web presence cooperative - a diverse* group of creatives that are 
-          passionate about collaborating with like-minded people to design authentic digital footprints that 
-          drive growth. As a collective of creators exploring new skills, we seek to work with fellow artists 
-          who are also on the path to establishing their portfolios and brand identities.
-        </p>
-        <p class="mission-text">
-          The Unbranded was formed from a group of innovators who share a mindset of cooperation, ethical 
-          business practices, and individualized, personal attention to client needs.
-        </p>
-        <p class="mission-text">
-          While we are still building our client base and skillset, we offer expert empathy, passion, and 
-          upfront flat rates. A vital aspect of our mission is to offer pro-bono services to marginalized 
-          business owners. <strong>We offer&colon; Website Development and Design &vert; <!--Video Conception, 
-          Production and Editing &vert;--> Visual Design &vert; Copywriting &vert; <!--Content Marketing 
-          Strategy--> Brand Cohesion.</strong>
-        </p>
-        <p class="mission-text">
-          *A note on diversity - we are proud of our current self-selecting team of four women but fully 
-          acknowledge that there is more diversity to be incorporated. We look forward to increasing team 
-          diversity as we grow and are focusing on a diverse client base in the meantime.
-        </p>
-      </div>
-    </section>
-
-    <section class="container" id="work">
-      <h2 class="heading-first">OUR WORK</h2>
-
+<!-- partial contains mission & about -->
      
       <%= render 'our-work' %>
+    
+    
+<!-- partial contains our work -->
+     
+      <%= render 'mission-about' %>
       
-    </section>
+
 
       
 <!-- partial contains social justice links and descriptions -->
@@ -54,31 +17,8 @@
 <!-- partial contains team -->
           <%= render 'team' %>
    
-    <section class="container" id="contact">
-      <h2 class="heading-first">CONTACT</h2>
-      <p>We would love to hear from you! Fill out the form below and we'll get back to you as
-      soon as possible.</p>
 
-      <form action="mailto:contact@the-unbranded.com" method="post" enctype="text/plain">
-        <label for="name">Name</label><br><br>
-        <input type="text" id="name" name="name" placeholder="John Doe" required><br><br>
+<!-- partial contains contact -->
+          <%= render 'contact' %>
 
-        <label for="email">Email</label><br><br>
-        <input type="email" id="email" name="email" placeholder="John_Doe@example.com" required><br><br>
-
-        <label for="request">What services are you interested in?
-        <br>
-        <span>Our non-exhaustive list of services includes: design, development, copywriting, video editing,
-        logo animation...</span></label><br><br>
-        <textarea id="request" name="request" rows="4" cols="35" maxlength="6000" required></textarea><br><br>
-
-        <label for="conumber">How many people are in your company?<br>
-          <span>If this is a personal project, enter 0.</span></label><br><br>
-        <input type="number" id="conumber" name="conumber"><br><br>
-        <label for="details">Please share any other details about the project that you'd like to discuss.</label><br><br>
-        <textarea id="details" name="details" rows="4" cols="35"></textarea>
-        <br><br>
-       <div class="btn-div"> <input type="submit" class="btn" value="Let's Do This!"></div>
-      </form> 
-      
-    </section>
+    
