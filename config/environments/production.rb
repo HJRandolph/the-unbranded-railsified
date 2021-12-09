@@ -120,7 +120,7 @@ Rails.application.configure do
 
   config.force_ssl = true
 
-  ost = 'localhost:3000'
+  ost = 'the-unbranded.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.gmail.com',
