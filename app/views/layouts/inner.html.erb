@@ -56,9 +56,12 @@
 
   <body>
   
-  <%= render partial: 'shared/main_header' %>
+  <%= render partial: 'shared/inner_page_header' %>
 <main>
-
+<br>
+  <% flash.each do |key, message| %>
+    <p class="alert alert-<%= key %>"><%= message %></p>
+  <% end %>
     <%= yield %>
     
 </main>

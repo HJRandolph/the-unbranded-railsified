@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+  layout 'inner'
   def index
     @articles = Article.all
   end
