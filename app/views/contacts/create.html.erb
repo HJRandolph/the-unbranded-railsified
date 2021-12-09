@@ -1,0 +1,11 @@
+<section class="container" id="contact">
+
+<h2 class="heading-first">CONTACT</h2>
+<br>
+<% flash.each do |key, message| %>
+  <p class="alert alert-<%= key %>"><%= message %></p>
+<% end %>
+<br>
+      <p>Thanks for getting in touch! We will get back to you as
+      soon as possible.</p>
+</section>

@@ -1,0 +1,46 @@
+<section class="container" id="contact">
+      <h2 class="heading-first">CONTACT</h2>
+      <p>We would love to hear from you! Fill out the form below and we'll get back to you as
+      soon as possible.</p>
+
+    
+<%= form_for(@contact) do |f| %>
+  
+
+  <div class="form-area">
+      <%= f.label :name, "Name" %>
+      <br>
+      <%= f.text_field :name, required: true, placeholder: 'Name', class: 'form-control' %>
+
+      <br><br>
+      <%= f.label :email, "Email" %>
+      <br>
+      <%= f.email_field :email, required: true, placeholder: 'j_doe@example.com', class: 'form-control' %>
+      
+      <br><br>
+      <%= f.label :request_info, "What services are you interested in?" %>
+      <br>Our non-exhaustive list of services includes: design, development, copywriting, video editing,
+      logo animation...
+      <%= f.text_area :request_info, required: true %>
+
+      <br><br>
+      <%= f.label :conumber, "How many people are in your company?" %>
+      <br>If this is a personal project, enter 0.
+      <%= f.text_field :conumber, required: true %>
+      <br><br>
+      <%= f.label :details, "Please share any other details about the project that you'd like to discuss." %>
+      <br>
+      <%= f.text_area :details, required: true %>
+
+      <div class="invisible">
+        <%= f.label :nickname %>
+        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+      
+      <div class="btn-div">
+      <%= f.submit "Let's Do This!", class: "btn" %>
+      </div>
+  </div>
+<% end %>
+
+</section>

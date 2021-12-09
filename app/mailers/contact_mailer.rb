@@ -14,7 +14,7 @@ class ContactMailer < ApplicationMailer
     @conumber = message.conumber
     @details = message.details
 
-    mail to: "contact@the-unbranded"
+    mail to: "contact@the-unbranded.com", subject: "New Service Inquiry"
   end
 end
 
