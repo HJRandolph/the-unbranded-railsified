@@ -92,18 +92,17 @@
   box-sizing: border-box;
 }
 
+
+
 body {
     margin: 0;
     padding: 0;
+    
    
     /* Dark to light gradient */
     background: linear-gradient(to bottom,#f28a2e 0%,  #f5f5f5 100%),
     url('beige-paper.png');
-  /*
-  
-    
-     background: linear-gradient(#f9f2ed 0%,  #f2a488 35%, #f27d52 90%, #f25934 100%);*/
-    background-blend-mode: overlay;
+      background-blend-mode: overlay;
 }
 
 header {
@@ -554,6 +553,7 @@ label span {
   font-size: 1.375em;
   font-weight: bold;
   color: #f28a2E;
+  background-color: white;
   height: 3em;
 	text-align: center;
 	vertical-align: center;
