@@ -4,6 +4,7 @@
         background-color: #f28a2e;*/ 
         margin: 3px 0px;
         
+        
 .info {
     display: none;
 }
@@ -27,31 +28,36 @@
         }
 
         .head {
+            display: flex;
+            align-items: center;
+            
             .name {
-                
+                width: 100%;
                 text-transform: uppercase;
                 
                 cursor: pointer;
                 position: relative;
 
-                span {
-                    position: absolute;
-                    display: block;
-                    width: 20px;
-                    height: 20px;
-                    border-radius: 50%;
-                    border: 1px solid rgb(66, 65, 65);
-                    text-align: center;
-                    right: 5px;
-                    top: -12px;
-                    font-size: 18px;
-                    line-height: 17px;
-                    color: rgb(66, 65, 65);
-                    background-color: #f28a2e;
+                
+                
+            }
 
-                    &.minus {
-                        display: none;
-                    }
+            span {
+                    
+                display: block;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: 1px solid rgb(66, 65, 65);
+                text-align: center;
+                
+                font-size: 18px;
+                line-height: 17px;
+                color: rgb(66, 65, 65);
+                background-color: #f28a2e;
+                margin-right: 4px;
+                &.minus {
+                    display: none;
                 }
             }
         }
