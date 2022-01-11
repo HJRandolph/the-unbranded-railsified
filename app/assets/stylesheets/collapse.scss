@@ -16,7 +16,8 @@
             .head span {
                 border-color: rgb(66, 65, 65);
                 color: rgb(66, 65, 65);
-
+                //color: #f28a2e;
+                font-weight: 900;
                 &.plus {
                     display: none;
                 }
@@ -50,9 +51,10 @@
                 border-radius: 50%;
                 border: 1px solid rgb(66, 65, 65);
                 text-align: center;
-                
+                font-weight: 900;
                 font-size: 18px;
                 line-height: 17px;
+                //color: #f28a2e;
                 color: rgb(66, 65, 65);
                 background-color: #f28a2e;
                 margin-right: 4px;
