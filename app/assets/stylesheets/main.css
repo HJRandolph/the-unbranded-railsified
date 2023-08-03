@@ -120,12 +120,13 @@ header {
 img {
   max-width: 90%;
 }
-.mission, .about {
+.mission, .about, .services {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
 
 h1,
 h2,
@@ -149,6 +150,7 @@ h2 {
 h3 {
   font-size: 1.25em;
 }
+
 h4 {
   font-size: 1em;
 }
@@ -357,7 +359,19 @@ footer {
 .mission-heading-first {
   padding-top: 3em;
 }
-    
+ 
+/******** SERVICES ********/
+#services .container {
+  width: 65%;
+  margin: 0 auto;
+	padding-bottom: 5em;
+  
+}
+
+.services-heading-first {
+  padding-top: 3em;
+}
+
 /******** PROJECT ********/
 #work h2 {
   padding-bottom: 1.875rem;
@@ -454,6 +468,10 @@ footer {
 .sj-a {
   text-decoration: none;
   color: #433f3d;
+}
+
+.plus, .minus {
+  font-family: 'Arsenal', sans-serif;
 }
 .pro-bono-support {
   text-align: center;
@@ -584,6 +602,31 @@ label span {
   .about h2 {
     width: 100%;
   }
+
+/***** SERVICES *****/
+#services .container {
+  width: 88%;
+  
+}
+
+.services h3, h4 {
+  width: 65%;
+  
+}
+
+#services ul {
+  display: inline;
+  list-style: none;
+}
+
+
+
+.services-heading-first {
+  width: 100%;
+}
+.services-text {
+  width: 65%;
+}
 
   /***** PROJECT *****/
   .project-team {

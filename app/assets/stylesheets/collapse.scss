@@ -1,12 +1,14 @@
  .sj-info {
         width: 100%;
-        /*border: 1px solid #f1e7e0;
-        background-color: #f28a2e;*/ 
+       /* border: 1px solid #f1e7e0;
+        background-color: #f28a2e; */
         margin: 3px 0px;
+        
         
         
 .info {
     display: none;
+    
 }
         &.expanded {
             .head .name {
@@ -35,7 +37,6 @@
             .name {
                 width: 100%;
                 text-transform: uppercase;
-                
                 cursor: pointer;
                 position: relative;
 
@@ -45,10 +46,10 @@
 
             span {
                     
-                display: block;
+                display: inline-block;
                 width: 20px;
                 height: 20px;
-                border-radius: 50%;
+                border-radius: 0%;
                 border: 1px solid rgb(66, 65, 65);
                 text-align: center;
                 font-weight: 900;
