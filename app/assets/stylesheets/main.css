@@ -168,7 +168,10 @@ a {
   font-family: 'Arsenal', sans-serif;
   font-style: normal;
   font-weight: 700;
+  color: #433f3d;
 }
+
+
 
 /* Navigation */  
 
@@ -578,6 +581,15 @@ label span {
   height: 3em;
 	text-align: center;
 	vertical-align: center;
+}
+
+#contact a {
+  font-family: 'montserrat', sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  
 }
 
 /*********************************************************
