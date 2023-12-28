@@ -37,6 +37,7 @@ module TheUnbranded
 
     config.assets.initialize_on_precompile = false
     config.assets.enabled = false
+    config.assets.precompile = []
 
     
   end
