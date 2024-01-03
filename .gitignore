@@ -42,3 +42,4 @@ yarn-debug.log*
 .DS_Storesendgrid.env
 
 sendgrid.envsendgrid.env
+sendgrid.env
